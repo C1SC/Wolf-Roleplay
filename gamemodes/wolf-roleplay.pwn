@@ -1,16 +1,25 @@
+//includes
 #include <a_samp>
+
+//enums
+
+//global variables
+
+//colors
+
+//dialogues
+
+//mysql
+
+//forwards
 
 main()
 {
-	print("\n----------------------------------");
-	print(" Blank Gamemode by your name here");
-	print("----------------------------------\n");
 }
 
 public OnGameModeInit()
 {
-	// Don't use these lines if it's a filterscript
-	SetGameModeText("Blank Script");
+	SetGameModeText("Wolf-Roleplay");
 	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
 	return 1;
 }
@@ -62,6 +71,8 @@ public OnPlayerText(playerid, text[])
 {
 	return 1;
 }
+
+//commands
 
 public OnPlayerCommandText(playerid, cmdtext[])
 {
@@ -207,3 +218,7 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 {
 	return 1;
 }
+
+//stocks
+
+
